@@ -1,0 +1,36 @@
+$primary: #efba6c;
+$text-1: #364d59;
+
+.navbar{
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    height: 7rem ;
+    transition: 1s ease;
+    &-brand{
+        width: 6rem;
+        height: 6rem;
+        padding: 0;
+        transition: 1s ease;
+        img{
+            width: 6rem;
+            height: 6rem;
+            object-fit: contain;
+            transition: 1s ease;
+        }
+    }
+    .nav-link{
+        padding: 5px 15px !important;
+        font-size: 1.2rem !important;
+        transition: .5s ease;
+        color: black !important;
+    }
+    .nav-link:hover{
+        color: $primary !important;
+    }
+    .nav-link.active{
+        color: $primary !important;
+    }
+}
