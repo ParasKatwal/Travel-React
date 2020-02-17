@@ -8,6 +8,7 @@ import Trip from './components/trip';
 import Blog from './components/blog';
 import Contact from './components/contact';
 import Footer from './components/footer';
+import BlogDetail from './components/blogDetail';
 
 // SCSS
 import './scss/common.scss';
@@ -31,6 +32,7 @@ function App() {
         <Route exact path="/trip" component={Trip} />
         <Route exact path="/blog" component={Blog} />
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/blog/blogDetail" component={BlogDetail} />
         <div className="join-with-us" style={bgFix}>
           <div className="bg--overlay d-flex align-items-center">
             <div className="container">

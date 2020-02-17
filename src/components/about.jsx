@@ -12,7 +12,7 @@ export default class About extends Component {
             <div className="about">
                 <div className="about__header">
                     <div className="bg--overlay">
-                        <Image src="assets/slide2.jpg" className="image-cover" />
+                        <Image src="assets/slide2.jpg" className="image--cover" />
                         <div className="landing__content index9">
                             <Container>
                                 <h1>
@@ -53,7 +53,7 @@ export default class About extends Component {
                     <Container>
                         <Row>
                             <Col sm={12} md={6}>
-                                <Image src="assets/hero_1.jpg" className="image-cover" />
+                                <Image src="assets/hero_1.jpg" className="image--cover" />
                             </Col>
                             <Col sm={12} md={6}>
                                 <div className="section-title d-flex justify-content-center">

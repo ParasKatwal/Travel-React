@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
 import '../scss/footer.scss'
-
 // Bootstrap Components
 import { Container, Row, Col, Image } from 'react-bootstrap';
+import p1 from '../images/p1.png'
+import p2 from '../images/p2.png'
+import p3 from '../images/p3.png'
 
 export default class Footer extends Component {
     render() {
@@ -15,22 +17,22 @@ export default class Footer extends Component {
                             <Container>
                                 <Row>
                                     <Col sm={4}>
-                                        <Image src="assets/p1.png" />
+                                        <Image src={p1} />
                                     </Col>
                                     <Col sm={4}>
-                                        <Image src="assets/p2.png" />
+                                        <Image src={p2} />
                                     </Col>
                                     <Col sm={4}>
-                                        <Image src="assets/p3.png" />
+                                        <Image src={p3} />
                                     </Col>
                                     <Col sm={4}>
-                                        <Image src="assets/p3.png" />
+                                        <Image src={p3} />
                                     </Col>
                                     <Col sm={4}>
-                                        <Image src="assets/p2.png" />
+                                        <Image src={p2} />
                                     </Col>
                                     <Col sm={4}>
-                                        <Image src="assets/p1.png" />
+                                        <Image src={p1} />
                                     </Col>
                                 </Row>
                             </Container>

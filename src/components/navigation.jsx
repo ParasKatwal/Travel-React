@@ -6,13 +6,15 @@ import '../scss/navigation.scss';
 // Bootstrap Components
 import { Container, Navbar, Nav, Image } from 'react-bootstrap';
 
+import triplogo from '../images/trip-logo.png';
+
 export default class Navigation extends Component {
     render() {
         return (
             <div>
                 <Navbar className="header__navbar" bg="light" expand="lg">
                     <Container>
-                        <Navbar.Brand className="navbar-brand" href=""><Image src="assets/trip-logo.png" /></Navbar.Brand>
+                        <Navbar.Brand className="navbar-brand" href=""><Image src={triplogo} /></Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse className="d-flex flex-row-reverse" id="basic-navbar-nav">
                             <Nav>

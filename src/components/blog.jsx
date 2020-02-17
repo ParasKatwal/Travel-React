@@ -11,7 +11,7 @@ export default class Blog extends Component {
             <div className="blog">
                 <div className="blog__header">
                     <div className="bg--overlay">
-                        <Image src="assets/hero_1.jpg" className="image-cover img--overlay" />
+                        <Image src="assets/hero_1.jpg" className="image--cover img--overlay" />
                         <div className="landing__content index9">
                             <Container>
                                 <h1>
@@ -28,7 +28,7 @@ export default class Blog extends Component {
                     <Container>
                         <Row>
                             <Col sm={12} md={4} className="blog__item" >
-                                <Link to='/blogDetail'>
+                                <Link href="/blogDetail" to={'/blog/blogDetail'}>
                                     <Image className="blog__item__img" src="assets/p1.png" />
                                     <div className="blog__content-wrapper">
                                         <a href="" className="blog__item__title">Lorem ipsum dolor sit amet</a>

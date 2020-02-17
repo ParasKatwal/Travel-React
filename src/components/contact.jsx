@@ -10,7 +10,7 @@ export default class Contact extends Component {
             <div className="contact">
                 <div className="contact__header">
                     <div className="bg--overlay">
-                        <Image src="assets/hero_1.jpg" className="image-cover img--overlay" />
+                        <Image src="assets/hero_1.jpg" className="image--cover img--overlay" />
                         <div className="landing__content index9">
                             <Container>
                                 <h1>
