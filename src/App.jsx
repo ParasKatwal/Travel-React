@@ -31,13 +31,15 @@ function App() {
         <Route exact path="/trip" component={Trip} />
         <Route exact path="/blog" component={Blog} />
         <Route exact path="/contact" component={Contact} />
-        <div className="join-with-us d-flex align-items-center" style={bgFix}>
-          <div className="container">
-            <div className="row d-flex justify-content-center align-items-center text-center">
-              <div className="col-sm-12 col-md-8">
-                <h1>Join and Trip With Us</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ut, doloremque quo molestiae nesciunt officiis veniam, beatae dignissimos!</p>
-                <a href="">GET IN TOUCH</a>
+        <div className="join-with-us" style={bgFix}>
+          <div className="bg--overlay d-flex align-items-center">
+            <div className="container">
+              <div className="row d-flex justify-content-center align-items-center text-center">
+                <div className="col-sm-12 col-md-8 index9">
+                  <h1>Join and Trip With Us</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ut, doloremque quo molestiae nesciunt officiis veniam, beatae dignissimos!</p>
+                  <a href="">GET IN TOUCH</a>
+                </div>
               </div>
             </div>
           </div>
