@@ -13,7 +13,7 @@ import Footer from './components/footer';
 import './scss/common.scss';
 
 // Images
-import join from '../assets/slide1.jpg';
+import join from './images/slide1.jpg';
 
 
 // Style
