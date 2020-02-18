@@ -22,7 +22,7 @@ $text-1: #364d59;
     }
     &__content{
         position: absolute;
-        left: 5rem;
+        left: 10rem;
         bottom: 4rem;
         width: 35rem;
         height: auto;
@@ -46,6 +46,7 @@ $text-1: #364d59;
             transition: .5s ease;
         }
         a:hover{
+            margin-top: 2rem;
             i{
                 background: rgba($color: white, $alpha: .6);
             }
